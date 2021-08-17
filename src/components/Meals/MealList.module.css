@@ -1,0 +1,22 @@
+.meal-list {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  margin-top: 2rem;
+  padding: 2rem;
+  padding-left: 0;
+  align-items: center;
+}
+
+.meal-list li {
+  list-style-type: none;
+  line-height: 0.5rem;
+  border-bottom: solid 1px #94570769;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.meal-list li:last-child {
+  border-bottom: none;
+  margin-bottom: -2rem;
+}
