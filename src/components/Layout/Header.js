@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Header.module.css';
 
-import mealsImg from '../../assets/meals-img.jpg';
+import mealsImg from '../../pictures/food-pic1.jpg';
 import HeaderCartButton from './HeaderCartButton';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <HeaderCartButton />
       </header>
       <div className={classes['main-image']}>
-        <img src={mealsImg} alt='Colorful fruits an vegetables on the table' />
+        <img src={mealsImg} alt='Colorful food on the table' />
       </div>
     </React.Fragment>
   );

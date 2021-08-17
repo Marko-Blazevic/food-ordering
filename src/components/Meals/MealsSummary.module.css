@@ -1,0 +1,16 @@
+.meals-summary {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px 10px rgba(0, 0, 0, 0.404);
+  margin-top: -8rem;
+  z-index: 20;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
