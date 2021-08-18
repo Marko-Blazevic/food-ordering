@@ -1,14 +1,54 @@
+.meal-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .meal-item h3 {
   font-size: 1.2rem;
 }
 
-.meal-description {
+.description {
   font-style: italic;
   font-size: 1rem;
 }
 
-.meal-price {
+.price {
   font-size: 1.2rem;
   color: #945707;
   font-weight: bold;
+}
+
+.amount {
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.amount-input {
+  padding-top: 1rem;
+}
+
+.meal-item input {
+  width: 2.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.meal-item button {
+  text-align: center;
+  padding: 0.3rem 2rem;
+  color: white;
+  border-radius: 20px;
+  border-color: #b63a00;
+  background-color: #b63a00;
+  font-weight: bold;
+}
+
+.meal-item button:hover {
+  background-color: #581d01;
+  border-color: #581d01;
 }

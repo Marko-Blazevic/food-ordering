@@ -3,18 +3,21 @@
   width: 70%;
   left: 15%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 2rem;
   padding-left: 0;
   align-items: center;
+}
+.meal-list ul {
+  margin: 0;
 }
 
 .meal-list li {
   list-style-type: none;
   line-height: 0.7rem;
   border-bottom: solid 1px #94570769;
-  margin-bottom: 1rem;
 }
 
-.meal-list li:last-child {
+/* .meal-list li:last-child {
   border-bottom: none;
-}
+} */
