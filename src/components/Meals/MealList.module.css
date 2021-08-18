@@ -10,13 +10,11 @@
 
 .meal-list li {
   list-style-type: none;
-  line-height: 0.5rem;
+  line-height: 0.7rem;
   border-bottom: solid 1px #94570769;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .meal-list li:last-child {
   border-bottom: none;
-  margin-bottom: -2rem;
 }
